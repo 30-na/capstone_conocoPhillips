@@ -86,7 +86,9 @@ rf = function(y){
                                       ComplType_new.P...P + 
                                       ComplType_new.P...P..cmt.. + 
                                       ComplType_new.Sleeves + 
-                                      SPACING_CAPPED, 
+                                      Latitude+
+                                      Longitude+
+                                      SPACING_CAPPED,
                                   data = dummy_conoco,
                                   na.action = na.omit,
                                   ntree=500,
@@ -110,13 +112,10 @@ response = c("X12.month.Cum.Prod",
              "Best3.Mo.BOPD",
              "Best6.Mo.BOPD",
              "Best9.Mo.BOPD",
-             "Best12.Mo.BOPD",
-             "Longitude",
-             "Latitude")
+             "Best12.Mo.BOPD")
 for(i in 1:length(response)){
     rf(response[i])
 }
-dev.off()
 
 
 
@@ -152,4 +151,5 @@ ggsave("reg_stageLength_prof.jpg",
        g,
        height=4,width=8,scale=1.2)
 
-
+# neural network and xgboost
+# tune for xgboost 
