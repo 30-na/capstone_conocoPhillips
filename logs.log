@@ -40510,3 +40510,69 @@ ValueError: Input contains NaN, infinity or a value too large for dtype('float64
 2022-12-06 10:10:22,228:INFO:Checking exceptions
 2022-12-06 10:10:22,228:INFO:Preloading libraries
 2022-12-06 10:10:22,229:INFO:Preparing display monitor
+2022-12-06 11:36:15,486:INFO:Initializing predict_model()
+2022-12-06 11:36:15,487:INFO:predict_model(estimator=PowerTransformedTargetRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                                max_depth=11, max_features='sqrt',
+                                max_leaf_nodes=None, max_samples=None,
+                                min_impurity_decrease=0.0002,
+                                min_impurity_split=None, min_samples_leaf=5,
+                                min_samples_split=7,
+                                min_weight_fraction_leaf=0.0, n_estimators=200,
+                                n_jobs=-1, oob_score=False,
+                                power_transformer_method='box-cox',
+                                pow...
+                                regressor=ExtraTreesRegressor(bootstrap=False,
+                                                              ccp_alpha=0.0,
+                                                              criterion='mse',
+                                                              max_depth=11,
+                                                              max_features='sqrt',
+                                                              max_leaf_nodes=None,
+                                                              max_samples=None,
+                                                              min_impurity_decrease=0.0002,
+                                                              min_impurity_split=None,
+                                                              min_samples_leaf=5,
+                                                              min_samples_split=7,
+                                                              min_weight_fraction_leaf=0.0,
+                                                              n_estimators=200,
+                                                              n_jobs=-1,
+                                                              oob_score=False,
+                                                              random_state=123,
+                                                              verbose=0,
+                                                              warm_start=False),
+                                verbose=0, warm_start=False), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-06 11:36:15,487:INFO:Checking exceptions
+2022-12-06 11:36:15,487:INFO:Preloading libraries
+2022-12-06 11:36:15,492:INFO:Preparing display monitor
+2022-12-06 15:23:57,476:INFO:Initializing predict_model()
+2022-12-06 15:23:57,486:INFO:predict_model(estimator=PowerTransformedTargetRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                                max_depth=11, max_features='sqrt',
+                                max_leaf_nodes=None, max_samples=None,
+                                min_impurity_decrease=0.0002,
+                                min_impurity_split=None, min_samples_leaf=5,
+                                min_samples_split=7,
+                                min_weight_fraction_leaf=0.0, n_estimators=200,
+                                n_jobs=-1, oob_score=False,
+                                power_transformer_method='box-cox',
+                                pow...
+                                regressor=ExtraTreesRegressor(bootstrap=False,
+                                                              ccp_alpha=0.0,
+                                                              criterion='mse',
+                                                              max_depth=11,
+                                                              max_features='sqrt',
+                                                              max_leaf_nodes=None,
+                                                              max_samples=None,
+                                                              min_impurity_decrease=0.0002,
+                                                              min_impurity_split=None,
+                                                              min_samples_leaf=5,
+                                                              min_samples_split=7,
+                                                              min_weight_fraction_leaf=0.0,
+                                                              n_estimators=200,
+                                                              n_jobs=-1,
+                                                              oob_score=False,
+                                                              random_state=123,
+                                                              verbose=0,
+                                                              warm_start=False),
+                                verbose=0, warm_start=False), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-06 15:23:57,487:INFO:Checking exceptions
+2022-12-06 15:23:57,488:INFO:Preloading libraries
+2022-12-06 15:23:57,503:INFO:Preparing display monitor
